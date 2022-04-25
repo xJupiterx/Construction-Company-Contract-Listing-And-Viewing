@@ -1,0 +1,230 @@
+.overlay {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.divider{
+    display:block;
+    text-align:center;
+    overflow:hidden;
+    margin:1rem 0
+}
+.divider .divider-text{
+    position:relative;
+    display:inline-block;
+    padding:0 1rem;
+    background-color:transparent;
+    color: white
+}
+.divider .divider-text:after,.divider .divider-text:before{
+    content:"";
+    position:absolute;
+    top:50%;
+    width:9999px;
+    border-top:1px solid blue
+}
+.divider .divider-text:before{
+    right:100%
+}
+.divider .divider-text:after{
+    left:100%
+}
+.divider.divider-left .divider-text{
+    left:0;float:left;padding-left:0
+}
+.divider.divider-left-center .divider-text{
+    left:-25%
+}
+.divider.divider-right-center .divider-text{
+    left:25%
+}
+.divider.divider-right .divider-text{
+    float:right;
+    padding-right:0
+}
+h1 {
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: sans; color: yellow;
+}
+#pageHeight{
+    height: 737px;
+}
+#card{
+    width: 500px;
+    border: solid 1px;
+    border-color: white;
+    margin: 7%;
+}
+#card1{
+    width: 500px;
+    border: solid 1px;
+    border-color: white;
+    margin: 3%;
+}
+#icon{
+    background-color:transparent;
+}
+#text{
+    text-align: left ;
+    margin-bottom: 3px; 
+    font-size: 16px;
+    margin-left: 50px;
+    color: white;
+}
+#text1{
+    text-align: left ;
+    margin-bottom: 3px; 
+    font-size: 16px;
+    margin-left: 27px;
+    color: white;
+}
+#text2{
+    text-align: left ;
+    margin-bottom: 3px; 
+    font-size: 16px;
+    margin-left: 10px;
+    color: white;
+}
+#text3{
+    text-align: left ;
+    margin-bottom: 3px; 
+    font-size: 16px;
+    margin-left: 22px;
+    color: white;
+}
+#text4{
+    margin-bottom: 0px; 
+    font-size: 22px;
+    background-color:#869aba;
+    color: white;
+}
+#text5{
+    width: 105%;
+    margin-bottom: 0px; 
+    font-size: 22px;
+    text-align:initial;
+    background-color: #dae6dd; 
+    color: black;
+    position:relative;
+    right: 24px;
+    border-bottom:1px solid #869aba;
+    text-align: center;
+}
+#textbox{
+    width:80%; 
+    border:none; 
+    border-bottom: 1px solid blue; 
+    background-color: transparent; 
+    color:white
+}
+#textbox1{
+    width:50%; 
+    border:none; 
+    border-bottom: 1px solid blue; 
+    background-color: transparent; 
+    color:white;
+    margin-left: 60px;
+}
+#textbox2{
+    width:50%; 
+    border:none; 
+    border-bottom: 1px solid blue; 
+    background-color: transparent; 
+    color:white;
+    margin-left: 37px;
+}
+#textbox3{
+    width:50%; 
+    border:none; 
+    border-bottom: 1px solid blue; 
+    background-color: transparent; 
+    color:white;
+    margin-left: 22px;
+}
+#textbox4{
+    width:70%; 
+    border:none; 
+    border-bottom: 1px solid blue; 
+    background-color: transparent; 
+    color:white;
+    margin-left: 26px;
+}
+#textbox5{
+    width:70%; 
+    border:none; 
+    border-bottom: 1px solid blue; 
+    background-color: transparent; 
+    color:white;
+    margin-right: 25px;
+}
+#textbox6{
+    width:104%; 
+    border: none;
+    border-bottom:1px solid #869aba;
+    background-color: #dae6dd; 
+    color:white;
+    position:relative;
+    right:24px;
+    height: 32.5px
+}
+#textbox7{
+    width:104%; 
+    border: none;
+    border-bottom:1px solid #869aba;
+    border-top:1px solid #869aba;
+    background-color: #dae6dd; 
+    color:black;
+    position:relative;
+    right:24px;
+    height: 32.5px
+}
+#textbox8{
+    width:104%; 
+    border: none;
+    border-bottom:1px solid #869aba;
+    background-color: #dae6dd; 
+    color:black;
+    position:relative;
+    text-align: center;
+    right:24px;
+    height: 32.5px
+}
+#textbox9{
+    width:104%; 
+    border: none;
+    border-bottom:1px solid #869aba;
+    background-color: #dae6dd; 
+    color:black;
+    position:relative;
+    text-align: center;
+    right:12px;
+    height: 32.5px
+}
+#textbox10{
+    width:104%; 
+    border: none;
+    border-bottom:1px solid #869aba;
+    background-color: #dae6dd; 
+    color:black;
+    position:relative;
+    right:24px;
+    height: 32.5px
+}
+#register{
+    position:relative;
+    left: 103px;
+}
+#buttonSize{
+    width: 100px;
+}
+#buttonSize1{
+    width: 150px;
+}
+#titlebg{
+    background-color:#54575c;
+    opacity:0.8;
+}
